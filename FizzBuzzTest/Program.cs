@@ -30,10 +30,10 @@ namespace FizzBuzzTest
 
             var result = new ViewResult(collection1);
 
-            result.ViewResultCollection.ToList().ForEach(x => Console.WriteLine(x.MessageBody));
-
-            //var collection2 = GetTestData.GetTestData1(21);
-            //var collection3 = GetTestData.GetTestData2();
+            var collection2 = GetTestData.GetTestData1(21);
+            result = new ViewResult(collection2,false);
+            var collection3 = GetTestData.GetTestData2();
+            result = new ViewResult(collection3);
 
             // todo: You are welcome
             Console.ReadLine();

@@ -16,5 +16,14 @@ namespace FizzBuzzTest.Helpers
 
         [Value("Buzz")]
         Buzz,
+
+        [Value("6")]
+        NumberMultipleForSix,
+
+        [Value("4")]
+        NumberMultipleForFour,
+
+        [Value("2")]
+        NumberMultipleForTwo
     }
 }
